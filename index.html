@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech Recognition</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5 text-danger">
+            SPEECH TO TEXT IN JAVASCRIPT
+        </h1>
+        <div class="form-group">
+            <textarea  id="textbox"  rows="10" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <p id="instructions">PRESS RECORD TO START</p>
+            <button id="start-btn" class="btn btn-info btn-block">
+                <em>RECORD</em>
+            </button> 
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
